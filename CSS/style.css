@@ -1065,6 +1065,7 @@ li {
         color: white;
         display: flex;
         align-items: center;
+        margin: 15px;
     }
     .lista-grupo {
         width: 100px;
@@ -1097,8 +1098,44 @@ li {
         margin: 15px;
     }
     .lista-topo {
-        font-size: 1rem;
+        font-size: 0.4rem;
         margin-left: 10px;
         margin-right: 10px;
+        padding: 0;
+        gap: 0;
+        border-radius: 0;
+        border: none;
+        background-color:#1e2833;
+    }
+    .lista-topo svg {
+        width: 15px;
+        padding: 0;
+        
+    }
+    .lista-topo li {
+        padding: 5px;
+    }
+    .classi-p {
+        display: flex;
+        font-size: 10px;
+        flex-wrap: wrap;
+        
+    }
+    .habilidades {
+        font-size: 15px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .habilidades li {
+        font-size: 10px;
+        position: relative;
+        right: 25px;
+    }
+    .pontos {
+        width: 200px;
+    }
+    .li-contato {
+        background-color:#23303d;
     }
 }
